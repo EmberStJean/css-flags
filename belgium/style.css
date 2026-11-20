@@ -23,10 +23,16 @@ a {
 
 .black {
     background:#000000;
+    display:block;
+    float:left;
 }
 .yellow {
     background:#FDDA24;
+    display:block;
+    float:middle;
 }
 .red {
     background: #EF3340;
+    display:block;
+    float:right;
 }
