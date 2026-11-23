@@ -1,9 +1,7 @@
 .header {
     text-align:center;
 }
-
 a {
-    display:block;
     width:100%;
     text-align:center;
 }
@@ -13,26 +11,20 @@ a {
   margin:auto;
   border:1px solid black;
 }
-
 .stripe {
     height:100%;
-    width:33.333%;
+    width: calc(100%/3);
 }
-
-
-
 .black {
     background:#000000;
-    display:block;
+
     float:left;
 }
 .yellow {
     background:#FDDA24;
-    display:block;
-    float:middle;
+    float:left;
 }
 .red {
     background: #EF3340;
-    display:block;
-    float:right;
+    margin-left: calc(200%/3);
 }
